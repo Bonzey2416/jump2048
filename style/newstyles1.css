@@ -763,51 +763,51 @@
 	color: #f9f6f2;
 }
 .tile-level-7 > .tile-mid > .tile-inner-top {
-	background: #edcf72 none repeat scroll 0 0;
-	color: #ede0c8;
-}
-.tile-level-8 > .tile-mid > .tile-inner-top {
-	background: #edcc61 none repeat scroll 0 0;
-	color: #ede0c8;
-}
-.tile-level-9 > .tile-mid > .tile-inner-top {
-	background: #edc850 none repeat scroll 0 0;
-	color: #ede0c8;
-}
-.tile-level-10 > .tile-mid > .tile-inner-top {
-	background: #edc53f none repeat scroll 0 0;
-	color: #ede0c8;
-}
-.tile-level-11 > .tile-mid > .tile-inner-top {
 	background: #edc22e none repeat scroll 0 0;
 	color: #ede0c8;
 }
+.tile-level-8 > .tile-mid > .tile-inner-top {
+	background: #ddb21e none repeat scroll 0 0;
+	color: #ede0c8;
+}
+.tile-level-9 > .tile-mid > .tile-inner-top {
+	background: #f08710 none repeat scroll 0 0;
+	color: #ede0c8;
+}
+.tile-level-10 > .tile-mid > .tile-inner-top {
+	background: #e07500 none repeat scroll 0 0;
+	color: #ede0c8;
+}
+.tile-level-11 > .tile-mid > .tile-inner-top {
+	background: #df2100 none repeat scroll 0 0;
+	color: #ede0c8;
+}
 .tile-level-12 > .tile-mid > .tile-inner-top {
-	background: #733373 none repeat scroll 0 0;
+	background: #bb1100 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-13 > .tile-mid > .tile-inner-top {
-	background: #7D377D none repeat scroll 0 0;
+	background: #770000 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-14 > .tile-mid > .tile-inner-top {
-	background: #893D89 none repeat scroll 0 0;
+	background: #220000 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-15 > .tile-mid > .tile-inner-top {
-	background: #934293 none repeat scroll 0 0;
+	background: #000077 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-16 > .tile-mid > .tile-inner-top {
-	background: #A248A2 none repeat scroll 0 0;
+	background: #000055 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-17 > .tile-mid > .tile-inner-top {
-	background: #B04FB0 none repeat scroll 0 0;
+	background: #500050 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-level-18 > .tile-mid > .tile-inner-top {
-	background: #222984 none repeat scroll 0 0;
+	background: #004000 none repeat scroll 0 0;
 	color: #ede0c8;
 }
 .tile-rotate-0 > .tile-mid > .tile-inner-top {
