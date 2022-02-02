@@ -249,10 +249,10 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		size *= Math.random() < 0.8 ? 1 : 1.2;
 		size *= Math.random() < 0.8 ? 1 : 1.1;
 		if(score < 16) {
-			size *= Math.random() < 0.6 ? 1 : 1.2;
+			size *= Math.random() < 0.6 ? 2 : 1.9;
 		}
 		else {
-			value *= Math.random() < 0.5 ? 2 : 1;
+			value *= Math.random() < 0.5 ? 2.6 : 3;
 		}
 	}
 	else if(score < 256) {
@@ -263,9 +263,9 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		value *= Math.random() < 0.7 ? 1 : 2;
 		size *= 0.9;
 		size *= Math.random() < 0.7 ? 1 : 1.1;
-		size *= Math.random() < 0.7 ? 1 : 0.9;
+		size *= Math.random() < 0.7 ? 1.3 : 0.99;
 		size *= Math.random() < 0.8 ? 1 : 1.1;
-		size *= Math.random() < 0.9 ? 1 : 0.9;
+		size *= Math.random() < 0.9 ? 1 : 0.99;
 		if(score > 128) {
 			value *= 2;
 			size *= Math.random() < 0.7 ? 1 : 0.9;
@@ -280,7 +280,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		value *= Math.random() < 0.8 ? 1 : 2;
 		value *= Math.random() < 0.9 ? 1 : 2;
 		value *= Math.random() < 0.95 ? 1 : 2;
-		size *= 0.8;
+		size *= 1.8;
 		size *= Math.random() < 0.7 ? 1 : 0.9;
 		size *= Math.random() < 0.8 ? 1 : 0.9;
 		size *= Math.random() < 0.8 ? 1 : 0.9;
@@ -298,7 +298,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		value *= Math.random() < 0.9 ? 1 : 2;
 		value *= Math.random() < 0.8 ? 1 : 2;
 		value *= Math.random() < 0.7 ? 1 : 2;
-		size *= 0.7;
+		size *= 2.7;
 		size *= Math.random() < 0.7 ? 1 : 0.8;
 		size *= Math.random() < 0.8 ? 1 : 0.8;
 		size *= Math.random() < 0.8 ? 1 : 0.7;
@@ -311,7 +311,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		for(var i=0; i<level; i++) {
 			if(Math.random() < 0.02 * level) {
 				value *= 2;
-				size *= 0.9;
+				size *= 3.9;
 			}
 		}
 		if(level < 15) {
