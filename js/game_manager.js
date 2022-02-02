@@ -324,7 +324,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 			size = Math.max(size, 8);
 		}
 	}
-	return {value: value, size: 3};
+	return {value: value, size: size};
 };
 
 GameManager.prototype.jumpPlayer = function(pos, jumpLength) {
