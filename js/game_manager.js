@@ -311,7 +311,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 		for(var i=0; i<level; i++) {
 			if(Math.random() < 0.02 * level) {
 				value *= 2;
-				size *= 3.9;
+				size *= 1.1;
 			}
 		}
 		if(level < 15) {
@@ -324,7 +324,7 @@ GameManager.prototype.getNextTileValueAndSize = function() {
 			size = Math.max(size, 8);
 		}
 	}
-	return {value: value, size: size};
+	return {value: value, size: 3};
 };
 
 GameManager.prototype.jumpPlayer = function(pos, jumpLength) {
